@@ -1,33 +1,87 @@
-# 🎬 YouTube Link Extractor Pro
+# 🎬 YT Link Extractor Pro
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-success)
+<div align="center">
 
-> **Uma ferramenta web moderna, rápida e eficiente para extrair todos os links de vídeos e shorts de qualquer canal do YouTube e exportar para CSV.**
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![YouTube](https://img.shields.io/badge/YouTube_Data-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## 📸 Preview
+**A ferramenta definitiva para Criadores de Conteúdo e Analistas de Dados.**
 
-*Adicione aqui um print da tela da sua aplicação rodando*
+[Ver Demo Online](#) </div>
+
+---
+
+## 📋 Sobre o Projeto
+
+O **YT Link Extractor Pro** é uma aplicação web desenvolvida em Python que permite extrair metadados (Títulos, URLs, IDs, Views) de **todos** os vídeos ou shorts de um canal do YouTube em segundos.
+
+Diferente de scrapers comuns, esta ferramenta utiliza o motor do `yt-dlp` otimizado para extração de metadados (`extract_flat`), garantindo velocidade e evitando o bloqueio por tráfego excessivo. O projeto conta com uma interface moderna (Dark Mode) construída com **Streamlit**.
+
+---
 
 ## 🚀 Funcionalidades
 
-- **Extração Rápida:** Utiliza o motor do `yt-dlp` para ler metadados sem baixar os vídeos (extremamente rápido).
-- **Interface Moderna:** UI Dark Mode estilizada com CSS personalizado.
-- **Suporte Total:** Funciona nas abas "Vídeos" e "Shorts".
-- **Exportação de Dados:** Gera planilhas CSV prontas para Excel/Google Sheets.
-- **No-Code Friendly:** Interface gráfica simples, sem necessidade de linha de comando para o usuário final.
+* ✅ **Extração Ilimitada:** Lê canais inteiros, sejam 10 ou 1.000 vídeos.
+* ✅ **Suporte Híbrido:** Funciona perfeitamente nas abas **Vídeos** e **Shorts**.
+* ✅ **Ultra Rápido:** Não baixa vídeos, apenas lê os dados estruturados.
+* ✅ **Exportação CSV:** Gera planilhas formatadas prontas para Excel, Google Sheets ou Pandas.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **[Python](https://www.python.org/)**: Linguagem base.
-- **[Streamlit](https://streamlit.io/)**: Framework para a interface web.
-- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)**: Biblioteca robusta para extração de dados do YouTube.
-- **[Pandas](https://pandas.pydata.org/)**: Manipulação e exportação de dados.
+* **[Streamlit](https://streamlit.io/)**: Interface web interativa.
+* **[yt-dlp](https://github.com/yt-dlp/yt-dlp)**: Motor de extração de dados do YouTube.
+* **[Pandas](https://pandas.pydata.org/)**: Manipulação de dados e exportação CSV.
 
-## 📦 Como Rodar Localmente
+---
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/youtube-link-extractor.git](https://github.com/SEU_USUARIO/youtube-link-extractor.git)
-   cd youtube-link-extractor
+## 💻 Instalação e Uso Local
+
+Siga os passos abaixo para rodar o projeto no seu computador:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU_USUARIO/youtube-link-extractor.git](https://github.com/SEU_USUARIO/youtube-link-extractor.git)
+    cd youtube-link-extractor
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Execute a aplicação:**
+    ```bash
+    python -m streamlit run app.py
+    ```
+
+4.  **Acesse:** O navegador abrirá automaticamente em `http://localhost:8501`.
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são o que tornam a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+
+1.  Faça um **Fork** do projeto.
+2.  Crie uma Branch para sua Feature (`git checkout -b feature/MinhaFeatureIncrivel`).
+3.  Faça o **Commit** das suas mudanças (`git commit -m 'Adicionei a MinhaFeatureIncrivel'`).
+4.  Faça o **Push** para a Branch (`git push origin feature/MinhaFeatureIncrivel`).
+5.  Abra um **Pull Request**.
+
+---
+
+## 📝 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+Isso significa que você é livre para usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, desde que mantenha os créditos do autor original.
+
+---
+
+<div align="center">
+  <sub>Desenvolvido com ☕ e Python por <a href="https://github.com/SEU_USUARIO">SEU NOME</a></sub>
+</div>
