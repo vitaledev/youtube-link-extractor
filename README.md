@@ -83,5 +83,5 @@ Isso significa que você é livre para usar, copiar, modificar, mesclar, publica
 ---
 
 <div align="center">
-  <sub>Desenvolvido com ☕ e Python por <a href="https://github.com/SEU_USUARIO">SEU NOME</a></sub>
+  <sub>Desenvolvido com ☕ e Python por <a href="https://github.com/vitaledev">VitaleDev</a></sub>
 </div>
